@@ -76,7 +76,7 @@ export default function Navbar() {
           <Link href="/" className="inline-flex items-center">
             <div className={cn(
               "relative transition-all duration-300 flex items-center",
-              scrolled ? "h-10 sm:h-12 w-auto" : "h-12 sm:h-14 w-auto"
+              scrolled ? "h-8 sm:h-10 w-auto" : "h-10 sm:h-12 w-auto"
             )}>
               <img 
                 src="/images/logo.png" 
