@@ -10,7 +10,7 @@ import AppointmentCTA        from "@/components/home/AppointmentCTA";
 export const metadata: Metadata = {
   title: "Homoeopathic Doctor in Agartala | Dr. J.D. Paul's Empirical Wellness Clinic",
   description:
-    "Dr. Joydeep Paul — BHMS Homoeopathic Physician in Agartala, Tripura. Specialist in PCOD/PCOS, Fatty Liver, Liver Cirrhosis & Fertility. Book your consultation today.",
+    "Dr. Joydeep Paul — Homoeopathic Physician & Consultant in Agartala, Tripura. Specialist in PCOD/PCOS, Fatty Liver, Liver Cirrhosis & Fertility. Book your consultation today.",
   keywords: [
     "homoeopathic doctor Agartala",
     "homeopathy clinic Agartala Tripura",
@@ -40,15 +40,15 @@ export default function HomePage() {
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Friday","Saturday","Sunday"],
-        "opens": "09:00",
-        "closes": "13:00"
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "10:00",
+        "closes": "14:00"
       },
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Friday","Saturday","Sunday"],
-        "opens": "16:30",
-        "closes": "20:30"
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "17:00",
+        "closes": "22:00"
       }
     ],
     "priceRange": "₹₹",

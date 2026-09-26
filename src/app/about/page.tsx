@@ -7,13 +7,13 @@ import PhilosophyQuote     from "@/components/about/PhilosophyQuote";
 import AboutCTA            from "@/components/about/AboutCTA";
 
 export const metadata: Metadata = {
-  title: "About Dr. Joydeep Paul — BHMS Homoeopathic Physician, Agartala",
+  title: "About Dr. Joydeep Paul — Homoeopathic Physician & Consultant, Agartala",
   description:
-    "Learn about Dr. Joydeep Paul — BHMS Homoeopathic Physician & Consultant in Agartala, Tripura. CCRH Research Fellow with 6+ years of experience in classical Homoeopathy.",
+    "Learn about Dr. Joydeep Paul — Homoeopathic Physician & Consultant in Agartala, Tripura. Ex-CCRH Research Fellow with 6+ years of experience in classical Homoeopathy.",
   keywords: [
     "Dr Joydeep Paul Agartala",
-    "BHMS homoeopathic doctor Agartala",
-    "CCRH Research Fellow Tripura",
+    "homoeopathic doctor Agartala",
+    "Ex-CCRH Research Fellow Tripura",
     "Empirical Wellness Clinic doctor",
     "homoeopathic consultant Agartala",
   ],
@@ -25,7 +25,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="MEET THE DOCTOR"
         title="Dr. Joydeep Paul"
-        subtitle="BHMS · Homoeopathic Physician & Consultant · Agartala, Tripura"
+        subtitle="Homoeopathic Physician & Consultant · Agartala, Tripura"
         breadcrumb={[{ label: "About", href: "/about" }]}
         align="center"
       />

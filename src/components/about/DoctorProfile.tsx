@@ -34,7 +34,7 @@ export default function DoctorProfile() {
             <div className="absolute bottom-4 right-4 lg:-right-6 bg-brand-navy/95 backdrop-blur-md rounded-lg shadow-hover px-3 py-2 flex items-center gap-2 transition-transform hover:-translate-y-1">
               <Microscope className="w-4 h-4 text-brand-green" />
               <div className="text-xs font-semibold text-white flex flex-col leading-tight">
-                <span>🔬 CCRH Research Fellow</span>
+                <span>🔬 Ex-CCRH Research Fellow</span>
                 <span className="text-white/70 font-normal">Govt. of India</span>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function DoctorProfile() {
                 isolated symptoms.
               </p>
               <p>
-                A Research Fellow at the Central Council of Research in Homoeopathy 
+                Formerly a Research Fellow at the Central Council of Research in Homoeopathy 
                 (CCRH), Government of India, Dr. Paul combines rigorous scientific 
                 understanding with the timeless principles of Homoeopathy. He is 
                 particularly known for his work in hormonal disorders, liver conditions, 

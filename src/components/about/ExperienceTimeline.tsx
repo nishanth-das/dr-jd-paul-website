@@ -37,12 +37,12 @@ export default function ExperienceTimeline() {
       desc: "Became a member of the Homoeopathic Medical Association of India, joining a network of dedicated professionals.",
     },
     {
-      year: "2021 – Present",
+      year: "2021 – 2024",
       icon: "Microscope",
       color: "red",
       title: "Research Fellow",
       org: "Central Council of Research in Homoeopathy (CCRH), Govt. of India",
-      desc: "Appointed as a Research Fellow at CCRH — the apex body for Homoeopathic research in India — contributing to evidence-based Homoeopathic practice.",
+      desc: "Served as a Research Fellow at CCRH — the apex body for Homoeopathic research in India — contributing to evidence-based Homoeopathic practice until 2024.",
     },
   ];
 

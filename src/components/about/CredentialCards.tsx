@@ -25,10 +25,10 @@ export default function CredentialCards() {
       icon: "Microscope",
       iconBg: "bg-blue-50",
       iconColor: "text-brand-navy",
-      title: "Research Fellow",
+      title: "Ex-Research Fellow",
       issuer: "Central Council of Research in Homoeopathy (CCRH)",
       detail: "Apex body for Homoeopathic research under the Ministry of AYUSH, Govt. of India",
-      year: "Since 2021",
+      year: "Served till 2024",
     },
   ];
 

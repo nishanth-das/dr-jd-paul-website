@@ -93,7 +93,7 @@ const galleryImages = [
   {
     id: 11,
     src: "/images/doctor/dr-paul-profile.jpg",
-    alt: "Dr. Joydeep Paul — BHMS Homoeopathic Physician & Consultant, Agartala, Tripura",
+    alt: "Dr. Joydeep Paul — Homoeopathic Physician & Consultant, Agartala, Tripura",
     title: "Dr. Joydeep Paul",
     category: "Doctor",
     aspectClass: "aspect-[4/3]",

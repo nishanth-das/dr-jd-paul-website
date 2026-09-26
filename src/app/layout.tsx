@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Dr. J.D. Paul's Empirical Wellness Clinic",
   },
   description:
-    "Dr. Joydeep Paul — BHMS Homoeopathic Physician & Consultant in Agartala, Tripura. Specialist in PCOD/PCOS, Fatty Liver, Liver Cirrhosis, and Fertility treatment. Classical Homoeopathy with modern techniques.",
+    "Dr. Joydeep Paul — Homoeopathic Physician & Consultant in Agartala, Tripura. Specialist in PCOD/PCOS, Fatty Liver, Liver Cirrhosis, and Fertility treatment. Classical Homoeopathy with modern techniques.",
   keywords: [
     "homoeopathic doctor Agartala",
     "homeopathy clinic Tripura",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "Empirical Wellness Clinic",
     "fatty liver treatment homoeopathy",
     "fertility treatment Agartala",
-    "BHMS doctor Agartala",
+    "expert homoeopathic doctor Agartala",
   ],
   authors: [{ name: "Dr. Joydeep Paul" }],
   creator: "Local Rank India",

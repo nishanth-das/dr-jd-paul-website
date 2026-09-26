@@ -19,8 +19,8 @@ export default function GovtRecognition() {
       iconColor: "text-brand-green",
       title: "CCRH — Research Body",
       subtitle: "Central Council of Research in Homoeopathy",
-      desc: "The CCRH, under the Ministry of AYUSH, is the apex body for conducting, coordinating, and promoting research in Homoeopathy. Dr. Joydeep Paul serves as a Research Fellow at CCRH.",
-      badge: "Dr. Paul is a Fellow",
+      desc: "The CCRH, under the Ministry of AYUSH, is the apex body for conducting, coordinating, and promoting research in Homoeopathy. Dr. Joydeep Paul formerly served as a Research Fellow at CCRH.",
+      badge: "Former Fellow",
       badgeVariant: "badge-green",
     },
     {

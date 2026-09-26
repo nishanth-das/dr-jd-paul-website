@@ -18,13 +18,13 @@ export default function AboutSnippet() {
               Dr. Joydeep Paul
             </h2>
             <h3 className="font-heading text-h4 text-brand-gray mt-1">
-              BHMS — Homoeopathic Physician
+              Homoeopathic Physician & Consultant
             </h3>
 
             <p className="font-body text-body text-brand-charcoal mt-6 leading-relaxed">
               With a dedicated practice in Classical Homoeopathy,
               Dr. Joydeep Paul brings together deep medical knowledge and
-              genuine care for every patient. A Research Fellow at the Central
+              genuine care for every patient. Formerly a Research Fellow at the Central
               Council of Research in Homoeopathy (CCRH), Government of India,
               he treats the whole person — not just the symptoms.
             </p>
@@ -36,7 +36,7 @@ export default function AboutSnippet() {
               </div>
               <div className="bg-white border border-brand-border rounded-lg px-4 py-2.5 flex items-center gap-2 shadow-card">
                 <Microscope className="w-4 h-4 text-brand-green" />
-                <span className="text-xs font-semibold text-brand-navy">CCRH Research Fellow</span>
+                <span className="text-xs font-semibold text-brand-navy">Ex-CCRH Research Fellow</span>
               </div>
               <div className="bg-white border border-brand-border rounded-lg px-4 py-2.5 flex items-center gap-2 shadow-card">
                 <Medal className="w-4 h-4 text-brand-green" />
@@ -68,8 +68,8 @@ export default function AboutSnippet() {
                 <Microscope className="w-5 h-5 text-brand-green" />
               </div>
               <div className="flex flex-col gap-1">
-                <span className="font-semibold text-sm">CCRH Research Fellow</span>
-                <span className="text-white/70">Govt. of India &middot; Since 2021</span>
+                <span className="font-semibold text-sm">Ex-CCRH Research Fellow</span>
+                <span className="text-white/70">Govt. of India &middot; Served till 2024</span>
               </div>
             </div>
           </div>
