@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Column 1 - Brand */}
           <div className="flex flex-col gap-6">
             <div className="inline-flex flex-col items-start">
-              <div className="h-10 w-auto inline-flex relative">
+              <div className="h-16 w-auto inline-flex relative">
                 <img 
                   src="/images/logo.png" 
                   alt="Dr. J.D. Paul's Empirical Wellness Clinic Logo" 
