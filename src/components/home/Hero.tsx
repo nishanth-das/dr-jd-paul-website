@@ -75,7 +75,7 @@ export default function Hero() {
         {/* Credentials Row */}
         <div className="flex justify-center gap-4 sm:gap-8 mt-10 animate-fade-up w-full px-2" style={{ animationDelay: "600ms" }}>
           {[
-            { icon: ClipboardCheck, text: "BHMS Qualified" },
+            { icon: ClipboardCheck, text: "100% Classical Homoeopathy" },
             { icon: Star, text: "5000+ Patients" },
             { icon: Leaf, text: "100% Natural" },
           ].map((item, i) => (

@@ -11,16 +11,12 @@ export default function Footer() {
           {/* Column 1 - Brand */}
           <div className="flex flex-col gap-6">
             <div className="inline-flex flex-col items-start">
-              <div className="flex">
-                <div className="bg-brand-red text-white px-2 py-1 font-heading text-xl font-bold">
-                  Dr. J.D
-                </div>
-                <div className="bg-brand-navy text-white px-2 py-1 border border-brand-navy font-heading text-xl font-bold shadow-[inset_0_0_0_1px_rgba(255,255,255,0.2)]">
-                  Paul&apos;s
-                </div>
-              </div>
-              <div className="text-white font-heading text-sm mt-1 tracking-wide">
-                Empirical Wellness Clinic
+              <div className="bg-white/90 backdrop-blur-sm rounded px-2 py-1 shadow-sm h-12 w-auto inline-flex">
+                <img 
+                  src="/images/logo.jpg" 
+                  alt="Dr. J.D. Paul's Empirical Wellness Clinic Logo" 
+                  className="h-full w-auto object-contain mix-blend-multiply"
+                />
               </div>
             </div>
             <p className="text-gray-300 font-body text-sm italic">

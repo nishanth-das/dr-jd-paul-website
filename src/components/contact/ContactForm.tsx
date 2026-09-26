@@ -89,9 +89,9 @@ export default function ContactForm() {
             Clinic Hours (for your reference)
           </p>
           <p className="text-xs text-brand-gray mt-2">
-            Mon–Wed &amp; Fri–Sun: 9:00 AM – 1:00 PM &middot; 4:30 PM – 8:30 PM
+            Monday–Sunday: 10:00 AM – 2:00 PM &middot; 5:00 PM – 10:00 PM
           </p>
-          <p className="text-xs text-brand-red mt-1 font-semibold">Thursday: Closed</p>
+          <p className="text-xs text-[#4ADE80] mt-1 font-semibold">Open 7 Days a Week</p>
         </div>
 
         {/* WhatsApp fallback */}
@@ -245,7 +245,7 @@ export default function ContactForm() {
             className={`${inputClasses}`}
           />
           <p className="text-xs text-brand-gray mt-1">
-            Clinic hours: Mon–Wed &amp; Fri–Sun, 9AM–1PM and 4:30–8:30PM
+            Clinic hours: Mon–Sun, 10AM–2PM and 5PM–10PM
           </p>
         </div>
 

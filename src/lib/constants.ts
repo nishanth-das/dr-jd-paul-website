@@ -14,9 +14,7 @@ export const CLINIC = {
   city: "Agartala",
   state: "Tripura",
   timings: [
-    { days: "Mon – Wed", hours: "9:00 AM – 1:00 PM  &  4:30 PM – 8:30 PM" },
-    { days: "Thursday",  hours: "Closed" },
-    { days: "Fri – Sun", hours: "9:00 AM – 1:00 PM  &  4:30 PM – 8:30 PM" },
+    { days: "Monday – Sunday", hours: "10:00 AM – 2:00 PM  &  5:00 PM – 10:00 PM" },
   ],
   payment: ["Cash", "UPI"],
   languages: ["Bengali", "English", "Hindi"],

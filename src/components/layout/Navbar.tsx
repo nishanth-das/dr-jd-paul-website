@@ -53,10 +53,10 @@ export default function Navbar() {
           <div className="container-site flex justify-between items-center py-1.5 text-xs font-body font-medium text-white/90">
             <div className="flex items-center gap-6">
               <span className="flex items-center gap-1.5">
-                <Clock className="w-3.5 h-3.5" /> Mon-Wed & Fri-Sun: 9AM-1PM, 4:30PM-8:30PM
+                <Clock className="w-3.5 h-3.5 text-[#4ADE80]" /> Mon–Sun: 10AM–2PM, 5PM–10PM
               </span>
-              <span className="flex items-center gap-1.5 text-brand-red font-semibold">
-                Thursday Closed
+              <span className="flex items-center gap-1.5 text-[#4ADE80] font-semibold">
+                Open 7 Days a Week
               </span>
             </div>
             <div className="flex items-center gap-6">
@@ -76,23 +76,16 @@ export default function Navbar() {
         )}>
           
           {/* Logo */}
-          <Link href="/" className="inline-flex flex-col items-start group">
-            <div className="flex">
-              <div className="bg-brand-red text-white px-2 py-1 font-heading text-xl font-bold group-hover:bg-[#B01D23] transition-colors">
-                Dr. J.D
-              </div>
-              <div className={cn(
-                "px-2 py-1 font-heading text-xl font-bold transition-colors",
-                scrolled ? "bg-brand-navy text-white" : "bg-brand-navy text-white"
-              )}>
-                Paul&apos;s
-              </div>
-            </div>
+          <Link href="/" className="inline-flex items-center">
             <div className={cn(
-              "font-heading text-sm mt-1 tracking-wide transition-colors",
-              scrolled ? "text-brand-navy" : "text-white"
+              "relative transition-all duration-300",
+              scrolled ? "h-10 sm:h-12 w-auto" : "h-12 sm:h-14 w-auto bg-white/90 backdrop-blur-sm rounded px-2 py-1 shadow-sm"
             )}>
-              Empirical Wellness Clinic
+              <img 
+                src="/images/logo.jpg" 
+                alt="Dr. J.D. Paul's Empirical Wellness Clinic Logo" 
+                className="h-full w-auto object-contain mix-blend-multiply"
+              />
             </div>
           </Link>
 
