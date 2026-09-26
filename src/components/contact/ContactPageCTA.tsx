@@ -16,10 +16,16 @@ export default function ContactPageCTA() {
             <p className="font-body text-sm text-brand-gray mt-2 leading-relaxed flex-grow">
               Speak with our team for immediate assistance or to confirm your appointment.
             </p>
-            <a href={`tel:${CLINIC.phoneRaw}`} className="btn-primary w-full mt-6 flex items-center justify-center gap-2">
-              <Phone className="w-4 h-4" />
-              {CLINIC.phone}
-            </a>
+            <div className="w-full mt-6 flex flex-col gap-2">
+              <a href={`tel:${CLINIC.phoneRaw}`} className="btn-primary w-full flex items-center justify-center gap-2">
+                <Phone className="w-4 h-4" />
+                {CLINIC.phone}
+              </a>
+              <a href={`tel:${CLINIC.phone2Raw}`} className="btn-primary w-full flex items-center justify-center gap-2">
+                <Phone className="w-4 h-4" />
+                {CLINIC.phone2}
+              </a>
+            </div>
           </div>
 
           {/* Card 2 — WhatsApp */}

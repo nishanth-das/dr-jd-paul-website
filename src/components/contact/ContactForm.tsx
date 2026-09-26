@@ -270,10 +270,13 @@ export default function ContactForm() {
                 Something went wrong
               </p>
               <p className="text-xs text-red-600 mt-1">
-                Your message could not be sent. Please try again, or contact
                 us directly on{" "}
                 <a href={`tel:${CLINIC.phoneRaw}`} className="underline font-semibold">
                   {CLINIC.phone}
+                </a>{" "}
+                or{" "}
+                <a href={`tel:${CLINIC.phone2Raw}`} className="underline font-semibold">
+                  {CLINIC.phone2}
                 </a>.
               </p>
             </div>

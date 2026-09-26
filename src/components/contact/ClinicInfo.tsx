@@ -20,6 +20,14 @@ export default function ClinicInfo() {
       isExternal: false,
     },
     {
+      icon: "Phone",
+      label: "Alternate Phone",
+      value: CLINIC.phone2,
+      link: `tel:${CLINIC.phone2Raw}`,
+      linkLabel: null,
+      isExternal: false,
+    },
+    {
       icon: "MessageCircle",
       label: "WhatsApp",
       value: "Chat with us directly",

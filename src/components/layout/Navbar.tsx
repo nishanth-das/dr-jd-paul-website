@@ -63,6 +63,10 @@ export default function Navbar() {
               <a href={`tel:${CLINIC.phoneRaw}`} className="flex items-center gap-1.5 hover:text-white transition-colors">
                 <Phone className="w-3.5 h-3.5" /> {CLINIC.phone}
               </a>
+              <span className="opacity-50">|</span>
+              <a href={`tel:${CLINIC.phone2Raw}`} className="flex items-center gap-1.5 hover:text-white transition-colors">
+                <Phone className="w-3.5 h-3.5" /> {CLINIC.phone2}
+              </a>
             </div>
           </div>
         </div>

@@ -7,6 +7,8 @@ export const CLINIC = {
   experience: "6+ Years",
   phone: "+91 88374 18755",
   phoneRaw: "918837418755",
+  phone2: "+91 94021 04275",
+  phone2Raw: "919402104275",
   whatsappLink: "https://wa.me/918837418755?text=Hello%20Dr.%20Paul%2C%20I%20would%20like%20to%20book%20a%20consultation.",
   address: "Akhaura Road, Opposite to Niljyoti Travel Agency, Agartala, Tripura — 799001",
   addressShort: "Akhaura Road, Agartala, Tripura",

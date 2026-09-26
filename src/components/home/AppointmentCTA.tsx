@@ -39,7 +39,14 @@ export default function AppointmentCTA() {
             className="flex items-center justify-center gap-2 bg-transparent text-white border-2 border-white/60 font-semibold px-8 py-4 rounded-lg hover:bg-white/10 hover:-translate-y-1 transition-all duration-300"
           >
             <Phone className="w-5 h-5" />
-            Call: {CLINIC.phone}
+            {CLINIC.phone}
+          </a>
+          <a 
+            href={`tel:${CLINIC.phone2Raw}`} 
+            className="flex items-center justify-center gap-2 bg-transparent text-white border-2 border-white/60 font-semibold px-8 py-4 rounded-lg hover:bg-white/10 hover:-translate-y-1 transition-all duration-300"
+          >
+            <Phone className="w-5 h-5" />
+            {CLINIC.phone2}
           </a>
         </div>
         

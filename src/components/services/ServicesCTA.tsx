@@ -49,17 +49,12 @@ export default function ServicesCTA() {
               
               <div className="flex items-start gap-4 text-white/80 text-sm font-body py-3 border-b border-white/10">
                 <Phone className="text-brand-green w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="leading-relaxed">{CLINIC.phone}</span>
+                <span className="leading-relaxed">{CLINIC.phone}<br/>{CLINIC.phone2}</span>
               </div>
               
               <div className="flex items-start gap-4 text-white/80 text-sm font-body py-3 border-b border-white/10">
                 <Clock className="text-brand-green w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="leading-relaxed">Mon–Wed &amp; Fri–Sun: 9AM–1PM, 4:30–8:30PM</span>
-              </div>
-              
-              <div className="flex items-start gap-4 text-brand-red font-semibold text-sm font-body py-3 border-b border-white/10">
-                <X className="text-brand-red w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="leading-relaxed">Thursday: Closed</span>
+                <span className="leading-relaxed">Mon–Sun: 10:00 AM – 2:00 PM, 5:00 PM – 10:00 PM</span>
               </div>
               
               <div className="flex items-start gap-4 text-white/80 text-sm font-body pt-3">

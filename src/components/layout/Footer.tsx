@@ -77,10 +77,16 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <h3 className="font-heading text-lg font-bold text-white">Contact Us</h3>
             <div className="flex flex-col gap-4 text-sm font-body text-gray-300">
-              <a href={`tel:${CLINIC.phoneRaw}`} className="flex items-start gap-3 hover:text-white transition-colors group">
-                <Phone className="w-5 h-5 text-[#4ADE80] group-hover:scale-110 transition-transform shrink-0" />
-                <span>{CLINIC.phone}</span>
-              </a>
+              <div className="flex flex-col gap-1">
+                <a href={`tel:${CLINIC.phoneRaw}`} className="flex items-start gap-3 hover:text-white transition-colors group">
+                  <Phone className="w-5 h-5 text-[#4ADE80] group-hover:scale-110 transition-transform shrink-0" />
+                  <span>{CLINIC.phone}</span>
+                </a>
+                <a href={`tel:${CLINIC.phone2Raw}`} className="flex items-start gap-3 hover:text-white transition-colors group">
+                  <span className="w-5 h-5 shrink-0" />
+                  <span>{CLINIC.phone2}</span>
+                </a>
+              </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#4ADE80] shrink-0" />
                 <div className="flex flex-col gap-1">
