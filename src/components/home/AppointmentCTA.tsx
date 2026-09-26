@@ -46,7 +46,7 @@ export default function AppointmentCTA() {
         <div className="mt-8 pt-6 border-t border-white/10 max-w-lg mx-auto flex items-center justify-center gap-2 text-white/70 text-xs font-body tracking-wide">
           <Clock className="w-4 h-4 shrink-0" />
           <span>
-            Mon–Sun: 10:00 AM – 2:00 PM | 5:00 PM – 10:00 PM &bull; Open 7 Days
+            Mon–Sun: 10:00 AM – 2:00 PM | 5:00 PM – 10:00 PM
           </span>
         </div>
       </div>

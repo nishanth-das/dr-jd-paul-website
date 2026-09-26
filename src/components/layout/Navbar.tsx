@@ -55,9 +55,6 @@ export default function Navbar() {
               <span className="flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5 text-[#4ADE80]" /> Mon–Sun: 10AM–2PM, 5PM–10PM
               </span>
-              <span className="flex items-center gap-1.5 text-[#4ADE80] font-semibold">
-                Open 7 Days a Week
-              </span>
             </div>
             <div className="flex items-center gap-6">
               <a href={`mailto:info@drjdpaulclinic.com`} className="flex items-center gap-1.5 hover:text-white transition-colors">
@@ -78,13 +75,16 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="inline-flex items-center">
             <div className={cn(
-              "relative transition-all duration-300",
-              scrolled ? "h-10 sm:h-12 w-auto" : "h-12 sm:h-14 w-auto bg-white/90 backdrop-blur-sm rounded px-2 py-1 shadow-sm"
+              "relative transition-all duration-300 flex items-center",
+              scrolled ? "h-10 sm:h-12 w-auto" : "h-12 sm:h-14 w-auto"
             )}>
               <img 
-                src="/images/logo.jpg" 
+                src="/images/logo.png" 
                 alt="Dr. J.D. Paul's Empirical Wellness Clinic Logo" 
-                className="h-full w-auto object-contain mix-blend-multiply"
+                className={cn(
+                  "h-full w-auto object-contain transition-all duration-300",
+                  !scrolled && "drop-shadow-[0_0_12px_rgba(255,255,255,0.7)]"
+                )}
               />
             </div>
           </Link>

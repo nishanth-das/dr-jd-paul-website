@@ -91,7 +91,6 @@ export default function ContactForm() {
           <p className="text-xs text-brand-gray mt-2">
             Monday–Sunday: 10:00 AM – 2:00 PM &middot; 5:00 PM – 10:00 PM
           </p>
-          <p className="text-xs text-[#4ADE80] mt-1 font-semibold">Open 7 Days a Week</p>
         </div>
 
         {/* WhatsApp fallback */}
