@@ -69,12 +69,6 @@ export default function TreatmentProcess() {
           ))}
         </div>
 
-        <div className="mt-12 bg-white border border-brand-border rounded-xl p-4 flex items-start gap-3 text-sm text-brand-gray max-w-2xl mx-auto shadow-sm">
-          <Info className="text-brand-navy w-5 h-5 flex-shrink-0 mt-0.5" />
-          <p className="leading-relaxed">
-            First consultation typically takes 30–45 minutes. Follow-ups are shorter. Please bring any previous medical reports.
-          </p>
-        </div>
       </div>
     </section>
   );
