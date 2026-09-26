@@ -21,12 +21,12 @@ export default function ExperienceTimeline() {
       desc: "Served on the frontlines during the COVID-19 pandemic as a Medical Officer, providing critical healthcare support.",
     },
     {
-      year: "2020 – Present",
+      year: "2020 – 2022",
       icon: "Building2",
       color: "navy",
-      title: "Senior Consultant",
+      title: "General Physician",
       org: "360 Health Care",
-      desc: "Continues to serve as Senior Consultant, providing expert Homoeopathic consultations to a wide range of patients.",
+      desc: "Served as a General Physician, providing expert homoeopathic consultations and treating a wide range of patients.",
     },
     {
       year: "2021",
@@ -43,6 +43,14 @@ export default function ExperienceTimeline() {
       title: "Research Fellow",
       org: "Central Council of Research in Homoeopathy (CCRH), Govt. of India",
       desc: "Served as a Research Fellow at CCRH — the apex body for Homoeopathic research in India — contributing to evidence-based Homoeopathic practice until 2024.",
+    },
+    {
+      year: "2023 – Present",
+      icon: "Building2",
+      color: "navy",
+      title: "Founder & Chief Physician",
+      org: "Dr. J.D. Paul's Empirical Wellness Clinic",
+      desc: "Established the Empirical Wellness Clinic in Agartala, dedicated to providing premium, 100% Classical Homoeopathic treatment for chronic and lifestyle conditions.",
     },
   ];
 
