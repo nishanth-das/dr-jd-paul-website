@@ -71,7 +71,7 @@ export default function ConditionCard() {
         <SectionHeader
           eyebrow="SPECIALISED CARE"
           title="Conditions We Treat"
-          subtitle="Each condition is treated holistically — targeting the root cause, not just the symptoms."
+          subtitle="Dr. Paul manages & handles acute as well as chronic & life threatening cases that respond exceptionally well to classical homoeopathic treatment."
           align="center"
         />
 

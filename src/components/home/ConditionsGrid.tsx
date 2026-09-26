@@ -10,7 +10,7 @@ export default function ConditionsGrid() {
         <SectionHeader
           eyebrow="SPECIALISED CARE"
           title="Conditions We Treat"
-          subtitle="Dr. Paul specialises in chronic and hormonal conditions that respond exceptionally well to classical Homoeopathic treatment."
+          subtitle="Dr. Paul manages & handles acute as well as chronic & life threatening cases that respond exceptionally well to classical homoeopathic treatment."
           align="center"
         />
 
